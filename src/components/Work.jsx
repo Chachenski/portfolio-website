@@ -32,7 +32,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Chachenski/Amazon-2.0-NextJS">
+                <a href="https://github.com/Chachenski/netflix">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -57,7 +57,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Chachenski/netflix">
+                <a href="https://github.com/Chachenski/Amazon-2.0-NextJS">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

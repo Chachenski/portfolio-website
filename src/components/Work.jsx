@@ -1,7 +1,7 @@
 import React from 'react'
 import netflix from '../assets/Netflix.png'
 import amazon from '../assets/amazon.png'
-
+import dowKipper from '../assets/dowkipper.png'
 
 const Work = () => {
   return (
@@ -58,6 +58,31 @@ const Work = () => {
                   </button>
                 </a>
                 <a href="https://github.com/Chachenski/Amazon-2.0-NextJS">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${dowKipper})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Dow Kipper
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://dow-kipper-b36eo02xh-chachenski.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Chachenski/dow-kipper">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
